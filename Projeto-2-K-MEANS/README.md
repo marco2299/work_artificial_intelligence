@@ -102,4 +102,10 @@ Atributos: comprimento/largura da sépala e da pétala (cm).
 - A padronização (`StandardScaler`) é aplicada porque a distância euclidiana é sensível à escala.
 - O intervalo de `K` usado no Elbow/Silhouette é `2..8`; a avaliação detalhada usa `K = {2,3,4,5}`.
 
+## 🔗 Link para o vídeo de explicação
+
+[https://youtu.be/qumcng2L9kY](https://youtu.be/qumcng2L9kY)
+
+---
+
 Projeto desenvolvido por **Marco Antonio Maia** para a disciplina Inteligência Artificial, Universidade Federal de Lavras (UFLA).
