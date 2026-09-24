@@ -1,0 +1,106 @@
+###--- KNN ---###
+
+ Id     Species           Predicted_Species
+  0  class_0          class_0
+  1  class_2          class_2
+  2  class_0          class_0
+  3  class_1          class_1
+  4  class_1          class_2
+  5  class_0          class_0
+  6  class_0          class_0
+  7  class_1          class_1
+  8  class_1          class_1
+  9  class_2          class_2
+ 10  class_1          class_1
+ 11  class_2          class_1
+ 12  class_0          class_0
+ 13  class_2          class_2
+ 14  class_0          class_0
+ 15  class_1          class_1
+ 16  class_1          class_1
+ 17  class_0          class_0
+ 18  class_1          class_2
+ 19  class_0          class_0
+ 20  class_1          class_1
+ 21  class_1          class_1
+ 22  class_0          class_0
+ 23  class_0          class_0
+ 24  class_1          class_2
+ 25  class_1          class_1
+ 26  class_0          class_0
+ 27  class_2          class_1
+ 28  class_1          class_2
+ 29  class_2          class_2
+ 30  class_0          class_0
+ 31  class_2          class_2
+ 32  class_1          class_1
+ 33  class_2          class_1
+ 34  class_2          class_2
+ 35  class_2          class_2
+
+--------------------------------------------------
+
+Accuracy: 0.8056
+Precision: 0.8092
+Recall: 0.8056
+
+--------------------------------------------------
+
+                    class_0           class_1           class_2           
+class_0             12                0                 0                 
+class_1             0                 10                4                 
+class_2             0                 3                 7                 
+
+###--- MLP ---###
+
+ Id     Species           Predicted_Species
+ 10  class_0          class_0
+134  class_2          class_1
+ 28  class_0          class_0
+121  class_1          class_1
+ 62  class_1          class_1
+ 51  class_0          class_0
+  7  class_0          class_0
+ 66  class_1          class_1
+129  class_1          class_1
+166  class_2          class_2
+102  class_1          class_1
+143  class_2          class_2
+ 42  class_0          class_0
+130  class_2          class_2
+ 14  class_0          class_0
+108  class_1          class_1
+105  class_1          class_1
+ 20  class_0          class_0
+100  class_1          class_1
+ 38  class_0          class_0
+ 93  class_1          class_1
+ 60  class_1          class_1
+ 22  class_0          class_0
+ 18  class_0          class_0
+ 98  class_1          class_1
+ 64  class_1          class_1
+ 58  class_0          class_0
+132  class_2          class_2
+112  class_1          class_1
+155  class_2          class_2
+ 48  class_0          class_0
+176  class_2          class_2
+ 94  class_1          class_1
+177  class_2          class_2
+164  class_2          class_2
+173  class_2          class_2
+
+--------------------------------------------------
+
+Accuracy: 0.9722
+Precision: 0.9741
+Recall: 0.9722
+
+--------------------------------------------------
+
+                    class_0           class_1           class_2           
+class_0             12                0                 0                 
+class_1             0                 14                0                 
+class_2             0                 1                 9                 
+
